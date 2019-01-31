@@ -296,6 +296,18 @@ $white: #ffffff;
     min-height: 150px;
   }
 
+  input[type=date]::-webkit-inner-spin-button { 
+    display: none;
+  }
+
+  input[type=date] {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-block !important;
+    visibility: visible !important;
+  }
+
   .disabled {
     margin-top: 30px;
     background-color: $steelBlue;
@@ -426,6 +438,6 @@ $white: #ffffff;
         opacity: 1;
         transform: translateY(0);
     }
-}
+  }
 }
 </style>
